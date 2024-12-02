@@ -1,7 +1,7 @@
 name: contoso-traders-app-deployment
 
 on:
-  workflow_dispatch:
+  push
 
 env:
   ACR_NAME: contosotradersacr
