@@ -4,7 +4,6 @@ on:
   push
 
 env:
-  application_id: af48fd2a-668c-47b9-aac2-25ac3ff6464e
   ACR_NAME: contosotradersacr
   AKS_CLUSTER_NAME: contoso-traders-aks
   AKS_CPU_LIMIT: 250m
