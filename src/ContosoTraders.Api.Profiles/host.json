@@ -1,11 +1,17 @@
 {
   "version": "2.0",
   "logging": {
-    "applicationInsights": {
-      "samplingSettings": {
-        "isEnabled": true,
-        "excludedTypes": "Request"
+    "LogLevel": {
+            "Default": "Information",
+            "Microsoft.AspNetCore": "Warning"
+        }
+    },
+    "AllowedHosts": "*",
+    "ApplicationInsights": {
+        "ConnectionString": "Copy connection string from Application Insights Resource Overview",
+        "samplingSettings": {
+          "isEnabled": true,
+          "excludedTypes": "Request"
       }
     }
   }
-}
