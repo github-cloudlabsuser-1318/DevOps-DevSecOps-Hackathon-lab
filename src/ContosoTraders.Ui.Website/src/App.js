@@ -126,3 +126,5 @@ const mapDispatchToProps = (dispatch) => ({
   getCartQuantity: (value) => dispatch(getCartQuantity(value)),
 })
 export default connect(mapStateToProps, mapDispatchToProps)(App);
+
+// changes made to test temp fork
