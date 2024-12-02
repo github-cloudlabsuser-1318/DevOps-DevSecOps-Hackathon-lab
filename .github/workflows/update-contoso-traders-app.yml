@@ -40,7 +40,6 @@ env:
   UI_CDN_ENDPOINT_NAME: contoso-traders-ui2
   UI_STORAGE_ACCOUNT_NAME: contosotradersui2
   USER_ASSIGNED_MANAGED_IDENTITY_NAME: contoso-traders-mi-kv-access
-  APPLICATIONINSIGHTS_CONNECTION_STRING: InstrumentationKey=ae1375a6-ed98-4867-bb26-b3147f8f4128;IngestionEndpoint=https://uksouth-1.in.applicationinsights.azure.com/;LiveEndpoint=https://uksouth.livediagnostics.monitor.azure.com/;ApplicationId=f67ff37f-3178-4fb7-970e-fd456a3dd162
 
 
 jobs:

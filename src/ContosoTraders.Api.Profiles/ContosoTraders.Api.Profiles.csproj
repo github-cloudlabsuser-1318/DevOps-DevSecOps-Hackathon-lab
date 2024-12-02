@@ -6,7 +6,6 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.OpenApi" Version="1.5.1" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.3" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />    
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ContosoTraders.Api.Core\ContosoTraders.Api.Core.csproj" />
