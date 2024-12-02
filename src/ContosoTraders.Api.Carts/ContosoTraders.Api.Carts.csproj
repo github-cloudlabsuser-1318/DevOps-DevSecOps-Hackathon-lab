@@ -15,5 +15,8 @@
 	<ItemGroup>
 		<ProjectReference Include="..\ContosoTraders.Api.Core\ContosoTraders.Api.Core.csproj" />
 	</ItemGroup>
+	<ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+	</ItemGroup>
 
 </Project>
