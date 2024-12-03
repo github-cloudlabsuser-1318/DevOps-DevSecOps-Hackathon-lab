@@ -14,7 +14,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set up Azure CLI
-        uses: azure/setup-cli@v1
+        uses: azure/CLI@v1
+        with:
+          inlineScript: echo "Azure CLI setup complete"
 
       - name: Log in to Azure
         uses: azure/login@v1
