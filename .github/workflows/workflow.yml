@@ -26,7 +26,7 @@ jobs:
           az policy state list --query "[?complianceState=='NonCompliant']" > policy_compliance_results.json
 
       - name: Upload scan results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: policy-compliance-results
           path: policy_compliance_results.json
